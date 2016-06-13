@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_escuro_cebraspe">#304070</color>
+    <string name="app_name">Transmissor de Arquivos</string>
+    <string name="browse_path_button">Procurar</string>
+    <string name="client_search">Pesquisar</string>
+    <string name="client_send_file">Enviar</string>
+    <string name="client_title">Enviar um Arquivo</string>
+    <string name="file_browser_title">Procurar Arquivo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_activity_client_title">Enviar Arquivo</string>
+    <string name="main_activity_server_title">Receber Arquivo</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="no_file_selected">Nenhum arquivo selecionado</string>
+    <string name="path_label">Caminho</string>
+    <string name="peers_list">Procurar Resultados</string>
+    <string name="select_dir">Selecionar Diretório</string>
+    <string name="server_running">Servidor está rodando</string>
+    <string name="server_stopped">Servidor foi parado</string>
+    <string name="start_client">Iniciar Cliente</string>
+    <string name="start_server_button">Iniciar Servidor</string>
+    <string name="stop_server_button">Parar Servidor</string>
+    <string name="temp_path">/</string>
+    <string name="title_activity_client">Cliente</string>
+    <string name="title_activity_file_browser">Procurar Arquivo</string>
+    <string name="title_activity_main">Transmissor WiFi Direct</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="b_padrao">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:background">@color/azul_escuro_cebraspe</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+</resources>
