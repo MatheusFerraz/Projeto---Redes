@@ -3,7 +3,9 @@
 \usepackage{sbc-template}
 
 \usepackage{graphicx,url}
- 
+
+\usepackage[portuguese]{babel}
+
 \usepackage[latin1]{inputenc}  
      
 \sloppy
@@ -66,7 +68,7 @@ A classe WifiP2pManager provê uma série de ações. As principais são:
   \item \textbf{requestConnectInfo()} - Requisita informações de conexão do dispositivo.
   \item \textbf{createGroup()} - Cria um grupo peer-to-peer onde o dispositivo corrente se torna o dono
   do grupo.
-  \item \textbf{removeGroup()} - Remove o dispositivo corrente no grupo.
+  \item \textbf{removeGroup()} - Remove grupo peer-to-peer.
   \item \textbf{requestGroupInfo()} - Requisito informações acerca do grupo peer-to-peer.
   \item \textbf{discoverPeers()} - Inicia a descoberta de pares.
   \item \textbf{requestPeers()} - Requisita uma lista dos pares descobertos.
@@ -78,15 +80,20 @@ implementadas duas classes que herdam da classe BroadcastReceiver, sendo a WiFiC
 WiFiServerBroadcastReceiver.
 
 A aplicação \textbf{Transmissor de Arquivos} foi construída com embasamento na arquitetura nativa do Android,
-onde se tem os layouts em arquivos xml e as controladoras (Activities) em arquivos java.
+onde se tem os layouts em arquivos xml e as controladoras (Activities) em arquivos java. A seguir, tem-se uma
+ilustração da arquitetura e disposição dos módulos da aplicação \textbf{Transmissor de Arquivos}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=5cm]{arquitetura.png}
+\caption{Arquitetura da Aplicação}
+\end{figure}
 
 \section{Dificuldades Encontradas}
 
 
 \section{Resultados do Trabalho}
 
-
-\section{Referências}
 
 \bibliographystyle{sbc}
 \bibliography{sbc-template}

@@ -1,14 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_browser.xml",
-        "source": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\layout\\activity_file_browser.xml"
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/build/intermediates/res/merged/debug/layout/activity_client.xml",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/src/main/res/layout/activity_client.xml"
     },
     {
-        "merged": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_client.xml",
-        "source": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\layout\\activity_client.xml"
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_file_browser.xml",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\layout\\activity_file_browser.xml"
+    },
+    {
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/build/intermediates/res/merged/debug/layout/activity_file_browser.xml",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/src/main/res/layout/activity_file_browser.xml"
+    },
+    {
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_client.xml",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\layout\\activity_client.xml"
     }
 ]

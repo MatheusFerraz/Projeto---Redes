@@ -1,14 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_search.png",
-        "source": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/src/main/res/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wifi_signal.png",
-        "source": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\drawable-hdpi\\wifi_signal.png"
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_search.png",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/src/main/res/drawable-hdpi/ic_action_search.png"
     },
     {
-        "merged": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_search.png",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\wifi_signal.png",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\drawable-hdpi\\wifi_signal.png"
+    },
+    {
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/wifi_signal.png",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/src/main/res/drawable-hdpi/wifi_signal.png"
+    },
+    {
+        "merged": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     }
 ]

@@ -58,7 +58,7 @@ public class ServerService extends IntentService {
 				
 				String inputData = "";
 				
-				signalActivity("About to start handshake");
+				signalActivity("Início - handshake.");
 	
 				String savedAs = "TA_File_" + System.currentTimeMillis();
 			    File file = new File(saveLocation, savedAs);

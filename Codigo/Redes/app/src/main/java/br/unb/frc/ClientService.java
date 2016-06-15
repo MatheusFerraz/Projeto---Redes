@@ -58,7 +58,7 @@ public class ClientService extends IntentService {
 				InputStreamReader isr = new InputStreamReader(is);
 				BufferedReader br = new BufferedReader(isr);			
 				
-				signalActivity("About to start handshake");
+				signalActivity("Início - handshake.");
 				
 			    byte[] buffer = new byte[4096];
 			    

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
+        "outputFile": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\build\\intermediates\\res\\merged\\debug\\values-v14\\values-v14.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 127
                 },
                 "from": {
-                    "file": "C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "file": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/C:\\Users\\Matheus Ferraz\\Documents\\ProjetosAndroid\\Redes\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 77,
+                        "endOffset": 89
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/build/intermediates/res/merged/debug/values-v14/values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "/home/matheus/Documentos/8º Semestre/Redes/Projeto Final/Projeto---Redes/Codigo/Redes/app/src/main/res/values-v14/styles.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,

@@ -150,13 +150,13 @@ public class ClientActivity extends Activity {
     public void sendFile(View view) {
     	if(!transferActive) {
 	        if(!filePathProvided) {
-	        	setClientFileTransferStatus("Select a file to send before pressing send");
+	        	setClientFileTransferStatus("Selecione um arquivo para enviar antes de pressionar o botão enviar.");
 	        }
 	        else if(!connectedAndReadyToSendFile) {
-	        	setClientFileTransferStatus("You must be connected to a server before attempting to send a file");
+	        	setClientFileTransferStatus("Você deve estar conectado a um servidor antes de enviar um arquivo.");
 	        }
 	        else if(wifiInfo == null) {
-	        	setClientFileTransferStatus("Missing Wifi P2P information");
+	        	setClientFileTransferStatus("Informações Wifi P2P em falta.");
 	        }
 	        else {
 	        	clientServiceIntent = new Intent(this, ClientService.class);
@@ -225,8 +225,7 @@ public class ClientActivity extends Activity {
     	targetFileStatus.setText(message);	
     }
      
-    public void displayPeers(final WifiP2pDeviceList peers)
-    {
+    public void displayPeers(final WifiP2pDeviceList peers) {
 		final AlertDialog.Builder dialog = new AlertDialog.Builder(this);
 		dialog.setTitle("Transmissor de Arquivos");
 
@@ -260,7 +259,7 @@ public class ClientActivity extends Activity {
 					connectToPeer(device);
 				}
 				else {
-					dialog.setMessage("Falha");
+					dialog.setMessage("Falha.");
 					dialog.show();
 				}							
 			}
