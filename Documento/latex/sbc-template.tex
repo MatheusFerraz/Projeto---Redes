@@ -31,19 +31,23 @@
 
 \section{Descrição do Problema}
 
+
+
+
+
 \section{Abordagem Utilizada para Resolução do Problema}
 
 Mediante a problemática apresentada, procurou-se elaborar uma aplicação simples P2P
 para dispositivos mobile portadores do sistema operacional Android. A aplicação desenvolvida
 neste trabalho foi denominada \textbf{Transmissor de Arquivos}.
 
-Como principal ferramenta de trabalho, utilizou-se a API Wi-Fi Peer-to-Peer (P2P). Esta, por sua vez,
+Como principal ferramenta de trabalho, utilizou-se a API \textit{Wi-Fi Peer-to-Peer} (P2P). Esta, por sua vez,
 possibilita que dispositivos detentores do Android 4.0 (API nível 14) ou superior e 
-equipados com controlador Wi-Fi, possam se conectar diretamente
-uns aos outros por meio do Wi-Fi sem a necessidade de um ponto de acesso intermediário.
+equipados com controlador \textit{Wi-Fi}, possam se conectar diretamente
+uns aos outros por meio do \textit{Wi-Fi} sem a necessidade de um ponto de acesso intermediário.
 
 A utilização dessa API, além de permitir a descoberta e conexão com outros dispositivos que suportam
-Wi-Fi P2P, possibilita velocidades de transmissão e distâncias maiores do que o proporcionado por 
+\textit{Wi-Fi} P2P, possibilita velocidades de transmissão e distâncias maiores do que o proporcionado por 
 conexões Bluetooth. Estes recursos são extremamente úteis para aplicações que compartilham dados, tal 
 como fotos, músicas etc.
 
@@ -74,7 +78,7 @@ A classe WifiP2pManager provê uma série de ações. As principais são:
   \item \textbf{requestPeers()} - Requisita uma lista dos pares descobertos.
 \end{enumerate}
 
-Por fim, outro elemento fundamental para implementação da aplicação foi a elaboração de um Broadcast Receiver.
+Por fim, outro elemento fundamental para implementação da aplicação foi a elaboração de um \textit{Broadcast Receiver}.
 Este módulo possibilita que intents (intenções) transmitidas pelo sistema Android sejam recebidas e, assim, a aplicação pode responder aos eventos de interesse. No caso da aplicação \textbf{Transmissor de Arquivos}, foram
 implementadas duas classes que herdam da classe BroadcastReceiver, sendo a WiFiClientBroadcastReceiver e a
 WiFiServerBroadcastReceiver.
@@ -93,6 +97,8 @@ ilustração da arquitetura e disposição dos módulos da aplicação \textbf{Transmis
 
 
 \section{Resultados do Trabalho}
+
+O trabalho apresenta como resultado uma aplicação, desenvolvida para android, que por meio de wifi direct realiza a transferência de arquivos entre dois dispositivos por meio de rede \textit{Peer-to-Peer}.
 
 
 \bibliographystyle{sbc}
