@@ -5,14 +5,12 @@
 \usepackage{graphicx,url}
  
 \usepackage[latin1]{inputenc}  
-
      
 \sloppy
 
 \title{Aplicação P2P Mobile para Compartilhamento de Arquivos\\ Estudo de Caso}
 
 \author{Matheus Herlan S. Ferraz\inst{1}, Cristóvão L. Frinhani\inst{1} }
-
 
 \address{Faculdade UnB Gama - Universidade de Brasília (UnB)
   \\
@@ -31,10 +29,56 @@
 
 \section{Descrição do Problema}
 
+\section{Abordagem Utilizada para Resolução do Problema}
 
-\section{Abordagem Utilizada para Resolução do Problema} \label{sec:firstpage}
+Mediante a problemática apresentada, procurou-se elaborar uma aplicação simples P2P
+para dispositivos mobile portadores do sistema operacional Android. A aplicação desenvolvida
+neste trabalho foi denominada \textbf{Transmissor de Arquivos}.
 
+Como principal ferramenta de trabalho, utilizou-se a API Wi-Fi Peer-to-Peer (P2P). Esta, por sua vez,
+possibilita que dispositivos detentores do Android 4.0 (API nível 14) ou superior e 
+equipados com controlador Wi-Fi, possam se conectar diretamente
+uns aos outros por meio do Wi-Fi sem a necessidade de um ponto de acesso intermediário.
 
+A utilização dessa API, além de permitir a descoberta e conexão com outros dispositivos que suportam
+Wi-Fi P2P, possibilita velocidades de transmissão e distâncias maiores do que o proporcionado por 
+conexões Bluetooth. Estes recursos são extremamente úteis para aplicações que compartilham dados, tal 
+como fotos, músicas etc.
+
+A API Wi-Fi P2P consiste de três partes principais. São elas:
+
+\begin{enumerate}
+  \item A classe WifiP2pManager, que possui métodos para a descoberta, requisição e conexão com outros
+  pares encontrados.
+  \item Ouvintes que possibilitam a notificação de sucesso ou falha a partir de chamadas aos métodos da
+  classe WifiP2pManager.
+  \item Intenções que trazem notificações de eventos específicos detectados pela estrutura Wi-Fi P2P, tais
+  como o encerramento de conexões ou então, um par recém-descoberto, por exemplo.
+\end{enumerate}
+
+A classe WifiP2pManager provê uma série de ações. As principais são:
+
+\begin{enumerate}
+  \item \textbf{initialize()} - Registra a aplicação que está utilizando o framework Wi-Fi. Deve ser
+  chamada antes de qualquer outro método provido pela WifiP2pManager.
+  \item \textbf{connect()} - Inicia a conexão peer-to-peer entre os dispositivos.
+  \item \textbf{cancelConnect()} - Cancela qualquer negociação de grupo que tenha iniciado.
+  \item \textbf{requestConnectInfo()} - Requisita informações de conexão do dispositivo.
+  \item \textbf{createGroup()} - Cria um grupo peer-to-peer onde o dispositivo corrente se torna o dono
+  do grupo.
+  \item \textbf{removeGroup()} - Remove o dispositivo corrente no grupo.
+  \item \textbf{requestGroupInfo()} - Requisito informações acerca do grupo peer-to-peer.
+  \item \textbf{discoverPeers()} - Inicia a descoberta de pares.
+  \item \textbf{requestPeers()} - Requisita uma lista dos pares descobertos.
+\end{enumerate}
+
+Por fim, outro elemento fundamental para implementação da aplicação foi a elaboração de um Broadcast Receiver.
+Este módulo possibilita que intents (intenções) transmitidas pelo sistema Android sejam recebidas e, assim, a aplicação pode responder aos eventos de interesse. No caso da aplicação \textbf{Transmissor de Arquivos}, foram
+implementadas duas classes que herdam da classe BroadcastReceiver, sendo a WiFiClientBroadcastReceiver e a
+WiFiServerBroadcastReceiver.
+
+A aplicação \textbf{Transmissor de Arquivos} foi construída com embasamento na arquitetura nativa do Android,
+onde se tem os layouts em arquivos xml e as controladoras (Activities) em arquivos java.
 
 \section{Dificuldades Encontradas}
 
