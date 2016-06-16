@@ -26,7 +26,7 @@
      
 \begin{resumo} 
 
-Este artigo apresenta o relato de um estudo conduzido sobre Aplicações P2P \textit{(Peer-to-Peer}. Neste trabalho, especificamente, o foco esteve atrelado à plataforma mobile, considerando o sistema operacional Android.Adicionalmente, utilizou-se a API \textit{Wi-Fi} P2P do Android como a principal ferramenta para elaboração da aplicação P2P resultante do estudo.
+Este artigo apresenta o relato de um estudo conduzido sobre Aplicações P2P \textit{(Peer-to-Peer}. Neste trabalho, especificamente, o foco esteve atrelado à plataforma mobile, considerando o sistema operacional Android. Adicionalmente, utilizou-se a API \textit{Wi-Fi} P2P do Android como a principal ferramenta para elaboração da aplicação P2P resultante do estudo.
 \end{resumo}
 
 \section{Descrição do Problema}
@@ -76,8 +76,7 @@ A classe \textit{WifiP2pManager} provê uma série de ações. As principais são:
 
 Por fim, outro elemento fundamental para implementação da aplicação foi a elaboração de um \textit{Broadcast Receiver}.
 Este módulo possibilita que intents (intenções) transmitidas pelo sistema Android sejam recebidas e, assim, a aplicação pode responder aos eventos de interesse. No caso da aplicação \textbf{Transmissor de Arquivos}, foram
-implementadas duas classes que herdam da classe BroadcastReceiver, sendo a \textit{WiFiClientBroadcastReceiver} e a
-\textit{WiFiServerBroadcastReceiver}.
+implementadas duas classes que herdam da classe \textit{BroadcastReceiver}, sendo a \textit{WiFiClientBroadcastReceiver} e a \textit{WiFiServerBroadcastReceiver}.
 
 A aplicação \textbf{Transmissor de Arquivos} foi construída com embasamento na arquitetura nativa do Android,
 onde se tem os layouts em arquivos xml e as controladoras (Activities) em arquivos java. A seguir, tem-se uma
@@ -91,13 +90,19 @@ ilustração da arquitetura e disposição dos módulos da aplicação \textbf{Transmis
 
 \section{Dificuldades Encontradas}
 
-Inicialmente, quando descoberta a API \textit{Wi-Fi} P2P, muitos dos seus conceitos foram difíceis de serem explorados e assimilados. A API é extremamente vasta e a aplicação construída neste trabalho utiliza os recursos mais simples da mesma. A aplicação, por exemplo, não foi implementada de forma que a troca de estado cliente/servidor seja feita de maneira automática. Adicionalmente, somente um arquivo é transferido por vez.
+Inicialmente, quando descoberta a API \textit{Wi-Fi} P2P, muitos dos seus conceitos foram difíceis de serem explorados e assimilados. A API é extremamente vasta e a aplicação construída neste trabalho utiliza os recursos mais simples da mesma. A aplicação, por exemplo, não foi implementada de forma que a troca de caracterização cliente/servidor seja feita de maneira automática. Adicionalmente, somente um arquivo é transferido por vez.
 
 Em seu estado atual, como citado anteriormente, a aplicação desenvolvida possui algumas limitações. Na seção Trabalhos Futuros, apresenta-se algumas melhorias para a mesma.
 
 \section{Resultados do Trabalho}
 
-O trabalho apresenta como resultado uma aplicação, desenvolvida para android, que por meio de \textit{wifi direct} realiza a transferência de arquivos entre dois dispositivos por meio de rede \textit{Peer-to-Peer}.
+O trabalho apresenta como resultado uma aplicação, desenvolvida para android, que por meio de \textit{wifi direct} realiza a transferência de arquivos entre dois dispositivos por meio de rede \textit{Peer-to-Peer}. A seguir, tem-se uma imagem que exibe a tela inicial da aplicação \textbf{Transmissor de Arquivos}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=5cm]{aplicacao.png}
+\caption{Tela inicial da Aplicação Desenvolvida}
+\end{figure}
 
 \section{Trabalhos Futuros}
 
@@ -111,7 +116,6 @@ Vale ressaltar que muitas melhorias podem ser efetuadas na aplicação. Contudo, a
 
 \end{itemize}
 
-\bibliographystyle{sbc}
 \bibliography{sbc-template}
 
 \end{document}
